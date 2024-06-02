@@ -2,10 +2,6 @@
 
 ## Overview
 
-# Sentiment Analysis on Brazilian Elections 2022
-
-## Overview
-
 This repository contains Jupyter notebooks detailing a comprehensive Sentiment Analysis project focused on the Brazilian Elections of 2022.
 
 ## Notebooks

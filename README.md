@@ -2,25 +2,38 @@
 
 ## Overview
 
-This repository contains Jupyter notebooks detailing a comprehensive Sentiment Analysis project focused on the Brazilian Elections of 2022. The project utilizes advanced Natural Language Processing (NLP) techniques to analyze public sentiment from Twitter data.
+# Sentiment Analysis on Brazilian Elections 2022
+
+## Overview
+
+This repository contains Jupyter notebooks detailing a comprehensive Sentiment Analysis project focused on the Brazilian Elections of 2022.
 
 ## Notebooks
 
 1. `SentimentAnalysis.ipynb`: 
-   - **Content Summary**: Initial exploration of Twitter data related to Brazilian elections. The notebook covers data extraction, pre-processing, and preliminary sentiment analysis.
+   - **Content Summary**: This notebook performs a sentiment analysis on Twitter data related to the 2022 Brazilian elections. 
 
 2. `ML_Sentiment.ipynb`: 
-   - **Content Summary**: Advanced sentiment analysis using machine learning models. This notebook delves into model training, evaluation, and fine-tuning for improved accuracy.
+   - **Content Summary**: This notebook delves into model training, evaluation, and fine-tuning for improved accuracy.
 
 ## Data
 
-TO DO
+The datasets used in this project are obtained from Kaggle. The specific dataset used is “Brazil Elections 2022 Twitter” which includes tweets related to the Brazilian elections.
+
+- **Source**: [Brazil Elections 2022 Twitter](https://www.kaggle.com/datasets/eduardojoslunelli/brazil-elections-2022-twitter)
+- **Format**: CSV files containing tweets and associated metadata.
 
 ## Installation
 
 To run the notebooks, you need to install specific Python libraries. You can install these via pip:
 
-TODO
+```
+pip install --upgrade kaggle
+pip install --upgrade transformers
+pip install --upgrade torch
+pip install --upgrade tweetnlp
+pip install pandas numpy scikit-learn matplotlib seaborn tqdm
+```
 
 ## Usage
 
